@@ -1,0 +1,54 @@
+//--*command that used in window power shell*--\\
+
+//list all files and folders
+ls 
+
+//change directory- goes on this folder & 
+cd
+
+//go back 
+cd ../ 
+
+//make folder
+mkdir hello
+
+//This command prints your location in the current PowerShell drive.
+Get-Location (gl)
+
+//full history 
+Get-History 
+
+//delete
+rm .\hello\ 
+
+//open vs cod 
+code . 
+
+//print working directory/ giveing path
+pwd 
+
+goes up =>>> ctrl+l
+
+short => pit+tab
+
+//quick access to the information you need to run and work with all of the available commands.
+Get-Help
+
+//easy-to-use reference cmdlet that brings up all the commands available for use in your current session.
+get-command
+
+// you want to clear the entries from your command history
+Clear-History -Command *help*, *command
+
+//ConvertTo-HTML
+get-alias | convertto-html > aliases.htm
+invoke-item aliases.htm
+
+//Format-List lets output properties as a list, each on a new line.
+Get-Service | Format-List
+
+//When writing an object to the error stream, use the Write-Error cmdlet
+Write-Error "Access denied."
+
+//Write-Debug writes a debug message to the console
+et-FilewithDebug -path C:\Users\jmorg_000\ -Debug

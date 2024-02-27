@@ -1,0 +1,109 @@
+//Git is a version-control system for tracking changes in 
+//source code during software development
+//Git Bash is a command-line interface (CLI) application for 
+//Windows that lets you communicate with Git, the version control system. Clone the repositories, commit changes, push and pull changes, and more are all possible using Git Bash.
+
+//**Git Bash Commands**\\
+
+@Three files create 
+> touch index.html style.css index.js 
+
+@index move to yuti
+> mv index.html ./yuti  
+
+@git version check
+> git -v 
+
+@configuration
+> git config 
+
+@check your global gmail
+>git config --global user.gmail
+
+@to add gmail 
+>git config --global user.gmail "yutimeher@gmail.com" 
+
+@check your global name
+>git config --global user.name 
+
+@Initializes the new git repository. 
+>git init 
+
+@clone the repositories which are already available in the remote repository. 
+>git clone 
+
+//master by default branch created
+//U - untracked - 
+@to check the status of file 
+//On branch master
+//No commits yet
+> git status 
+
+@Files present in the working area will move to the staging area.
+>git add index.html  
+
+@add all file in stage area
+>git add . 
+
+@cached to unstage
+>git rm => 
+
+@help you to see the logs of all the commits made. 
+>git log
+@show all history
+>git log --all
+@showing oneline history
+>git log --all --oneline 
+@showing oneline history in graph
+>git log --all --oneline --graph
+
+@Creates a new branch. 
+>git branch
+
+@For merging the changes from one branch to another branch. 
+>git merge
+ 
+@to configure the username and email id.
+>git config 
+ 
+@It will display the all tags.
+>git tag
+
+@--to save or commits folder or file
+>git commit -m "inital commit" 
+>git commit -m "First commit"
+//[master (root-commit) 1c0203f] inital commit
+
+
+//when you change your commit file than M is showing
+//you can commit direct also
+
+
+@click on commit btn
+>Add Boilerplate code in html 
+//new Changes in code
+>git add.
+>git commit -m "Add Boilerplate code in html"
+>git commit -m "Add Boilerplate code in html"
+//[master 1143e04] Add Boilerplate code in html
+
+q btn => go back
+//go back to version before any commit
+
+@git checkout id 
+>git checkout 1488038cf1e2883da4475b9e5d41f54bd58082a0 
+
+@curent version code
+>git checkout master 
+
+@which repository connect with github
+>git remote show origin
+
+@Download all the other changes from the remote repository to the local repository.
+>git pull 
+>git add .
+>git add file_name
+>git commit -m "commit_name"
+@Push the changes.
+git push origin master
+

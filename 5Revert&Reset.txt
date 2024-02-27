@@ -1,0 +1,19 @@
+//reset & 
+//only work on the local not on remote
+//when you not push in github then this is used
+git reset commitId => go that 
+git reset --hard commitId => remove that commit
+git reset --soft commitId => go on stage -- not remove
+git reset commitId => working stage -- remove manualy
+ 
+git reflog => all show history and get all id's
+
+git reset --hard~1
+
+//when code is on github and you push its you want to reset its than
+//revert
+git revert commitId
+git revert --no -commit head~3
+
+//noraml
+git revert --abort

@@ -1,0 +1,11 @@
+git stash -m ""
+
+git stash list
+
+git stash apply 1
+
+git stash pop 1
+
+git stash drop 1
+
+git stash clear
